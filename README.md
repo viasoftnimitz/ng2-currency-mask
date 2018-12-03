@@ -1,4 +1,4 @@
-# ng2-currency-mask
+# nimitz-currency-mask
 
 A very simple currency mask directive for Angular that allows using a number attribute with the ngModel. In other words, the model is a number, and not a string with a mask. It was tested in Angular version 4 and 5.
 
@@ -11,13 +11,13 @@ Note: This component is ready to AoC (Ahead-of-Time) compilation.
 Install the package by command:
 
 ```sh
-    npm install ng2-currency-mask --save
+    npm install nimitz-currency-mask --save
 ```
 
 Import the module
 
 ```ts
-import { CurrencyMaskModule } from "ng2-currency-mask";
+import { CurrencyMaskModule } from "nimitz-currency-mask";
 
 @NgModule({
     imports: [
@@ -60,8 +60,8 @@ Available options:
 You can also set options globally...
 
 ```ts
-import { CurrencyMaskModule } from "ng2-currency-mask";
-import { CurrencyMaskConfig, CURRENCY_MASK_CONFIG } from "ng2-currency-mask/src/currency-mask.config";
+import { CurrencyMaskModule } from "nimitz-currency-mask";
+import { CurrencyMaskConfig, CURRENCY_MASK_CONFIG } from "nimitz-currency-mask/src/currency-mask.config";
 
 export const CustomCurrencyMaskConfig: CurrencyMaskConfig = {
     align: "right",
